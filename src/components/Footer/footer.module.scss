@@ -1,0 +1,19 @@
+.footerContainer {
+  background: #5ab9d8;
+  height: 8.5rem;
+  justify-content: space-between;
+  padding: 5rem;
+  display: block;
+
+    img {
+      height: 5%;
+      align-items: center;
+    }
+    span {
+      color: black;
+      font-family: Inter, sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      display: block;
+    }
+}
