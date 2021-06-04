@@ -1,19 +1,24 @@
 .footerContainer {
-  background: #5ab9d8;
-  height: 8.5rem;
-  justify-content: space-between;
-  padding: 5rem;
-  display: block;
+  background: #33a9d1;
+  height: 14.5rem;
+  padding-top: 3rem;
 
-    img {
-      height: 5%;
-      align-items: center;
-    }
-    span {
+  span {
       color: black;
       font-family: Inter, sans-serif;
       font-size: 1rem;
       text-align: center;
       display: block;
+
     }
+
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.35rem;
+  }
 }

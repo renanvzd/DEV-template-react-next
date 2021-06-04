@@ -1,4 +1,4 @@
-import styles from "./topBar.module.scss";
+import styles from './topBar.module.scss';
 
 export function TopBar() {
   return (
@@ -9,7 +9,7 @@ export function TopBar() {
           href="https://www.facebook.com/pousadatramandai"
           title="Visite nosso facebook"
         >
-          <img src="/Facebook.png" alt="Facebook" />
+          <img src="/Facebook.svg" alt="Facebook" />
         </a>
 
         <a

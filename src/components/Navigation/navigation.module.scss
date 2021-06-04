@@ -1,22 +1,16 @@
 .navigationContainer {
-  background: #5ab9d8;
-  height: 6.5rem;
-  justify-content: space-between;
-  padding: 1.2rem;
+  background: #007bff;
+  height: 3rem;
   display: flex;
+  justify-content: center;
+
 
     p {
-      padding-left: 40%;
       color: black;
       font-family: Lobster, sans-serif;
-      font-size: 3rem;
-      text-align: center;
+      font-size: 2rem;
+      padding-top: 0.2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
-
-    img {
-      height: 95%;
-      margin-left: 1.5rem;
-
-
-  }
 }
