@@ -1,29 +1,62 @@
+.homeMoradas {
+  background: #CAE1FF;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  width: 100%;
 
-.structureContainer {
-  .homeMoradas {
-    background: #CAE1FF;
-    height: auto;
+  span {
+    display: block;
+    padding-bottom: 3rem;
+    font-family: Lobster;
+    font-size: 3rem;
+    color: black;
+  }
+
+  .grid {
+    display: flex;
     justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    text-align: center;
+    margin-bottom: auto;
 
-    span {
-      display: block;
-      padding-bottom: 3rem;
-      font-family: Lobster;
-      font-size: 3rem;
-      color: black;
 
-    }
-    img {
-      height: 30rem;
-      width: 30rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      margin-left: 0;
-      margin-right: 0;
-      padding-top: 2rem;
+
+    .blockPhoto {
+      padding-top: 1rem;
+      position: relative;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+
+      img {
+        position: relative;
+        height: 25rem;
+        width: 25rem;
+        background: white;
+        margin-bottom: -1%;
+      }
+
+      span.add {
+        font-size: 2.5rem;
+        background: white;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+      }
+
+      span.addDown {
+        background: white;
+        font-size: 1.25rem;
+        font-family: Inter;
+        text-align: left;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+      }
+
+      span.saibaMais {
+        background: white;
+        font-size: 1rem;
+        font-family: Inter;
+        text-align: left;
+        padding-left: 2rem;
+      }
     }
   }
 }
